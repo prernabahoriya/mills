@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="style.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  .fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+  .fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+.fa-pinterest {
+  background: #cb2027;
+  color: white;
+}
+#navlist {
+            background-color: #0074D9;
+            position: absolute;
+            width: 100%;
+        }
+           
+        /* styling navlist anchor element */
+        #navlist a {
+            float:left;
+            display: block;
+            color: #f2f2f2;
+            text-align: center;
+            padding: 60px;
+            text-decoration: none;
+            font-size: 40px;
+        }
+        .navlist-right{
+            float:right;
+        }
+   
+        /* hover effect of navlist anchor element */
+        #navlist a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+
+
+
+  </style>
+</head>
+<body>
+  <div id="navlist"></div>
+  <div class="navlist-right">
+    <a href="#">SEARCH</a>
+    <a href="#">MY BAG</a>
+    </div>
+</div>
+
+<div id="myNav" class="overlay">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <div class="overlay-content">
+    <a href="#">About</a>
+    <a href="#">Services</a>
+    <a href="#">Clients</a>
+    <a href="#">Contact</a>
+    
+  </div>
+</div>
+<script>
+function openNav() {
+  document.getElementById("myNav").style.width = "100%";
+}
+
+function closeNav() {
+  document.getElementById("myNav").style.width = "0%";
+}
+</script>
+<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; </span>
+
+
+  <div class="header">
+    <h1 class="glow">florence by mill</h1>
+    <p><a href="y.html">skincare</a>  <a href="r.html">haircare</a>  <a href="r.html">makeup</a>  <a href="r.html">new arrivals</a>  <a href="r.html">blogs</a> </p>
+  </div>
+  <div class="container">
+    <img src="mills.jpg" alt="Notebook" style="width:100%;">
+    <div class="content">
+      <h1>"GLOW LIKE A STAR"</h1>
+      <p>PEACE, LOVE AND FLORENCE</p>
+    </div>
+  </div>
+   <!-- Showcase Area -->
+   <div id="showcase">
+    <div class="container">
+      <div class="showcase-content">
+        <h2 align="center">"Always clean vegan and cruelty free"</h2>
+        <p class="lead">
+          <div class="row">
+            <div class="column">
+              <img src="skin.jpg" alt="Snow" style="width:100%">
+              <p>skincare</p>
+            </div>
+            <div class="column">
+              <img src="up.jpg" alt="Forest" style="width:100%">
+              <p>makeup</p>
+            </div>
+            <div class="column">
+              <img src="hair.jpg" alt="Mountains" style="width:100%">
+              <p>haircare</p>
+            </div>
+          </div>
+        </p>
+        <a href="#" class="btn">Read More</a>
+      </div>
+    </div>
+  </div>
+</header><br>
+
+<!-- About Section -->
+<section class="about">
+  <div class="container">
+    <h3 class="bg-dark-line" align="center"><span>NEW ARRIVALS</span></h3><br><h4 align="center"><a href="#">cafe florence</a></h4>
+    <p class="lead">
+      <div class="row">
+        <div class="column">
+          <img src="k.jpg" alt="Snow" style="width:100%">
+          <p>Holiday gift bag</p>
+        </div>
+        <div class="column">
+          <img src="l.jpg" alt="Forest" style="width:100%">
+          <p>Holiday ornament</p>
+        </div>
+        <div class="column">
+          <img src="m.jpg" alt="Mountains" style="width:100%">
+          <p>clear the way face wash</p>
+        </div>
+      </div>
+    </p>
+    
+  </div>
+</section>
+<!-- Authors -->
+<div id="authors">
+  <div class="container">
+    <h3 align="center"><span>we say yes to...</span></h3>
+    <h4 align="center">proven ingredients that make us feel good from head to toe - cleans also means we strive to care for the planet</h4>
+    
+  </div>
+</div>
+
+<!-- Contact -->
+<div id="contact">
+  <div class="container">
+    <h3 align="center"><span>see us in action</span></h3>
+    <a href="#" class="fa fa-facebook" align="center"></a>
+    <a href="#" class="fa fa-instagram"align="center"></a>
+    <a href="#" class="fa fa-pinterest"align="center"></a>
+    <h1 align="center">stay up to date </h1>
+    <form action="/action_page.php" align="center">
+      <label for="fname">email add</label><br>
+      <input type="text" id="fname" name="fname" value=""><br>
+      <label for="lname">phone no.</label><br>
+      <input type="text" id="lname" name="lname" value=""><br><br>
+      <input type="submit" value="subscribe">
+    </form> 
+   
+  </div>
+</div>
+<footer id="main-footer">
+  <div class="container">
+    <p>
+      Florence by mills is design by
+      <a href="https://www.onlineittuts.com"> OnlineITtuts </a> &copy 2022
+    </p>
+  </div>
+</footer>
+
+  </body>
+</html>
+
+  
